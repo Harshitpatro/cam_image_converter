@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>image_converter_pkg</name>
+  <version>0.0.1</version>
+  <description>ROS2 package for video conversion using usb_cam</description>
+  <maintainer email="harshitpatro123@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>usb_cam</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
