@@ -10,7 +10,8 @@ This package implements an image conversion node for ROS2 that subscribes to ima
 - Provides a ROS2 service to change the processing mode (greyscale or color) at runtime.
 - Launch file starts both the camera node and the image conversion node, with parameters to set input and output topics.
 ## Demo
- <video controls src="video.mp4" title="Title"></video>
+![Uploading video.gif…]()
+
 ## Installation
 
 1. Ensure you have ROS2 installed on your system.
