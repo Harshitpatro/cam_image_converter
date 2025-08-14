@@ -1,5 +1,3 @@
-# README.md
-
 # Image Converter ROS2 Package
 
 This package implements an image conversion node for ROS2 that subscribes to images from a USB/laptop camera and processes them based on the selected mode (greyscale or color).
